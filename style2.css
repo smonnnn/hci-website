@@ -292,7 +292,6 @@ body {
 .settings-block {
     display:flex; 
     justify-content: space-between; 
-    height:5vh;
     border-radius: 10px;
     background-color: var(--small-container);
     margin: 10px 10px;
