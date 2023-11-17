@@ -64,3 +64,7 @@ function addEnergy(){
 function setTargetWater(target){
   target_water = target;
 }
+
+addWater();
+addEnergy();
+addProtein();
