@@ -153,7 +153,7 @@ body {
     background-color: var(--large-container);
     margin: 0 auto 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 4px rgba(0, 0, 0, 1) solid;
+    border: 2px rgba(0, 0, 0, 1) solid;
 }
 
 .bar {
@@ -183,7 +183,7 @@ body {
     margin: 0 auto 0;
     margin-bottom: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 3px rgba(0, 0, 0, 1) solid;
+    border: 2px rgba(0, 0, 0, 1) solid;
 }
 
 .grid-rows {
@@ -201,7 +201,7 @@ body {
     background-color: var(--small-container);
     margin: 10px 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 4px rgba(0, 0, 0, 1) solid;
+    border: 2px rgba(0, 0, 0, 1) solid;
 }
 
 .circle-progress-indicator {
