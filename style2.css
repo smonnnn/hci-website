@@ -32,6 +32,7 @@ body {
     margin: 0;
     padding: 0;
     user-select: none;
+    font-family: Arial, sans-serif;
 }
 
 .main-block {
@@ -80,7 +81,6 @@ body {
     position: absolute;
     color: black;
     font-size: 30px;
-    font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
 }
@@ -153,7 +153,7 @@ body {
     background-color: var(--large-container);
     margin: 0 auto 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 2px rgba(0, 0, 0, 1) solid;
+    border: 4px rgba(0, 0, 0, 1) solid;
 }
 
 .bar {
@@ -183,7 +183,7 @@ body {
     margin: 0 auto 0;
     margin-bottom: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 2px rgba(0, 0, 0, 1) solid;
+    border: 3px rgba(0, 0, 0, 1) solid;
 }
 
 .grid-rows {
@@ -201,7 +201,7 @@ body {
     background-color: var(--small-container);
     margin: 10px 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 2px rgba(0, 0, 0, 1) solid;
+    border: 4px rgba(0, 0, 0, 1) solid;
 }
 
 .circle-progress-indicator {
@@ -214,7 +214,6 @@ body {
     margin: auto;
     font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif;
     color: var(--circle-progress-indicator-text);
 }
 .circle-progress-indicator:before {
@@ -308,4 +307,15 @@ body {
     margin-right:1rem;
     display:flex; 
     flex-direction: row;
+}
+
+
+.text-large {
+    width: 100%;
+    max-width: 500px;
+    color: var(--name-container-text);
+    margin:auto;
+    font-size: 2rem;
+    font-weight: 600;
+    word-wrap: break-word;
 }
