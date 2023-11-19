@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+<div class="main-block">
+
+    <div class="content-block">
+        <div class="content-item">
+            <div class="overlay-block">
+                <a class="icon-block" href="main.html">
+                    <img class="icon-image" style="border:0px; box-shadow: none;" src="assets/back.png" />
+                </a>
+                <div class="welcome-message">Nutrition</div>
+                <div class="gradient"></div>
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="name-container"><a>Daily Nutrition Targets</a></div>
+            <div class="grid-rows">
+                <div class="small-container" onclick="addWater()" style="--c: var(--p-pink-pastel-2); --cd: var(--p-pink-pastel-4)">
+                    <div class="circle-progress-indicator" id="water-pie" style="--p:10;--b:10px;">Water</div>
+                </div>
+                <div class="small-container" onclick="addProtein()" style="--c: var(--p-pink-pastel-3); --cd: var(--p-pink-pastel-4)">
+                    <div class="circle-progress-indicator" id="protein-pie" style="--p:17;--b:10px;">Protein</div>
+                </div>
+            </div>
+            <div class="grid-rows">
+                <div class="small-container" onclick="addEnergy()" style="--c: var(--p-pink-pastel-3); --cd: var(--p-pink-pastel-4)">
+                    <div class="circle-progress-indicator" id="energy-pie" style="--p:200;--b:10px;">Energy</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="name-container"><a>Protein Intake</a></div>
+            <div class="large-container" style="--c:30;">
+                <div class="bar" style="--h: 90%;">
+                    <div>
+                        120gr
+                    </div>
+                    <div>
+                        monday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 80%;">
+                    <div>
+                        110gr
+                    </div>
+                    <div>
+                        tuesday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 65%;">
+                    <div>
+                        100gr
+                    </div>
+                    <div>
+                        wednesday
+                    </div>
+                </div>
+                <div class="bar" style="--h:40%;">
+                    <div>
+                        75gr
+                    </div>
+                    <div>
+                        thursday
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="name-container"><a>Water Intake</a></div>
+            <div class="large-container" style="--c:40">
+                <div class="bar" style="--h: 80%;">
+                    <div>
+                        1.8L
+                    </div>
+                    <div>
+                        monday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 75%;">
+                    <div>
+                        1.5L
+                    </div>
+                    <div>
+                        tuesday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 100%;">
+                    <div>
+                        2.2L
+                    </div>
+                    <div>
+                        wednesday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 100%;">
+                    <div>
+                        2.1L
+                    </div>
+                    <div>
+                        thursday
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="name-container"><a>Calorie Intake</a></div>
+            <div class="large-container" style="--c:50">
+                <div class="bar" style="--h: 100%;">
+                    <div>
+                        2300kcal
+                    </div>
+                    <div>
+                        monday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 60%;">
+                    <div>
+                        2100kcal
+                    </div>
+                    <div>
+                        tuesday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 45%;">
+                    <div>
+                        1900kcal
+                    </div>
+                    <div>
+                        wednesday
+                    </div>
+                </div>
+                <div class="bar" style="--h: 90%;">
+                    <div>
+                        2200kcal
+                    </div>
+                    <div>
+                        thursday
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="nav-bar">
+        <a class="nav-element" href="nutrition.html">
+            <img class="avatar" src="assets/apple2.jpg" />
+            <span class="category">Nutrition</span>
+        </a>
+        <a class="nav-element" href="fitness.html">
+            <img class="avatar" src="assets/dumbell2.jpg" />
+            <span class="category">Fitness</span>
+        </a>
+        <a class="nav-element" href="health.html">
+            <img class="avatar" src="assets/heart.png" />
+            <span class="category">Health</span>
+        </a>
+    </div>
+
+</div>
+<script src="script.js"></script> 
+</body>
+</html>

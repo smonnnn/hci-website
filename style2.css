@@ -309,13 +309,22 @@ body {
     flex-direction: row;
 }
 
-
 .text-large {
     width: 100%;
     max-width: 500px;
     color: var(--name-container-text);
     margin:auto;
     font-size: 2rem;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.text-small {
+    width: 100%;
+    max-width: 500px;
+    color: var(--name-container-text);
+    margin:auto;
+    font-size: 1rem;
     font-weight: 600;
     word-wrap: break-word;
 }
