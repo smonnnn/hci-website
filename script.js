@@ -9,16 +9,6 @@ var target_water = 4000;
 var target_protein = 120;
 var target_energy = 2200;
 
-function open_modal(target){
-  modal.style.display = 'flex';
-  t = target;
-}
-
-function close_modal(){
-  modal.style.display = 'none';
-  t.setValue(input);
-}
-
 function addWater(){
   water = water + 200;
   var e = document.getElementById("water-pie");
@@ -68,3 +58,11 @@ function setTargetWater(target){
 addWater();
 addEnergy();
 addProtein();
+
+function popup(){
+  window.alert("Your measurements were saved!");
+}
+
+function popupsettings(){
+  window.alert("Your settings were saved!");
+}
