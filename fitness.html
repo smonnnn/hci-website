@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+<div class="main-block">
+
+    <div class="content-block">
+        
+        <div class="content-item">
+            <div class="overlay-block">
+                <a class="icon-block" href="main.html">
+                    <img class="icon-image" style="border:0px; box-shadow: none;" src="assets/back.png" />
+                </a>
+                <div class="welcome-message">Fitness</div>
+                <div class="gradient"></div>
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="name-container"><a>Today's Workout</a></div>
+            <div class="large-container" style="flex-direction: column; height:100%; min-height:30vh">
+                <div class="text-large">Back and Biceps</div>
+                <div class="text-small">For each exercise, start with 2 warmup sets and 3 working sets. Aim for 8-12 repetitions for each working set!</div>
+                <div style="margin:auto; text-align: left;">
+                
+                    <div class="text-small">1. Deadlifts</div>
+                    <div class="text-small">2. Lat Pulldowns</div>
+                    <div class="text-small">3. Barbell Rows</div>
+                    <div class="text-small">4. Dumbbell Bicep Curls</div>
+                    <div class="text-small">5. Hammer Curls</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="name-container"><a>Next Workouts</a></div>
+            <div class="large-container" style="flex-direction: column; height:100%; min-height:30vh">
+                <div class="text-large">Chest and Triceps</div>
+                <div class="text-large">Active Recovery</div>
+                <div class="text-large">Legs and Shoulders</div>
+                <div class="text-large">Cardio and Core</div>
+            </div>
+        </div>
+
+    <div class="content-item">
+        <div class="name-container"><a>Benchpress Performance</a></div>
+        <div class="large-container" style="--c:5">
+            <div class="bar" style="--h: 80%;">
+                <div>
+                    40kg
+                </div>
+                <div>
+                    Januari
+                </div>
+            </div>
+            <div class="bar" style="--h: 75%;">
+                <div>
+                    45kg
+                </div>
+                <div>
+                    Februari
+                </div>
+            </div>
+            <div class="bar" style="--h: 85%;">
+                <div>
+                    47kg
+                </div>
+                <div>
+                    March
+                </div>
+            </div>
+            <div class="bar" style="--h: 90%;">
+                <div>
+                    55kg
+                </div>
+                <div>
+                    April
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-item">
+        <div class="name-container"><a>Squat Performance</a></div>
+        <div class="large-container" style="--c:15">
+            <div class="bar" style="--h: 80%;">
+                <div>
+                    50kg
+                </div>
+                <div>
+                    Januari
+                </div>
+            </div>
+            <div class="bar" style="--h: 75%;">
+                <div>
+                    58kg
+                </div>
+                <div>
+                    Februari
+                </div>
+            </div>
+            <div class="bar" style="--h: 85%;">
+                <div>
+                    54kg
+                </div>
+                <div>
+                    March
+                </div>
+            </div>
+            <div class="bar" style="--h: 90%;">
+                <div>
+                    60kg
+                </div>
+                <div>
+                    April
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-item">
+        <div class="name-container"><a>Deadlift Performance</a></div>
+        <div class="large-container" style="--c:25">
+            <div class="bar" style="--h: 80%;">
+                <div>
+                    70kg
+                </div>
+                <div>
+                    Januari
+                </div>
+            </div>
+            <div class="bar" style="--h: 75%;">
+                <div>
+                    68kg
+                </div>
+                <div>
+                    Februari
+                </div>
+            </div>
+            <div class="bar" style="--h: 85%;">
+                <div>
+                    73kg
+                </div>
+                <div>
+                    March
+                </div>
+            </div>
+            <div class="bar" style="--h: 90%;">
+                <div>
+                    76kg
+                </div>
+                <div>
+                    April
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-block">
+        <div class="name-container"><a>New measurements</a></div>
+        <div class="settings-block">
+            <div class="settings-item"><a>Benchpress:</a></div>
+            <div class="settings-item">
+                <input type="text" class="input-field" size="8" placeholder="60kg"/>
+            </div>
+        </div>
+        <div class="settings-block">
+            <div class="settings-item"><a>Squat:</a></div>
+            <div class="settings-item">
+                <input type="text" class="input-field" size="8" placeholder="70kg"/>
+            </div>
+        </div>
+        <div class="settings-block">
+            <div class="settings-item"><a>Deadlift:</a></div>
+            <div class="settings-item">
+                <input type="text" class="input-field" size="8" placeholder="80kg"/>
+            </div>
+        </div>
+        <div class="settings-block" style="background-color:var(--background); color: black; display:flex; justify-content: center; width:80%; margin: auto;">
+            <button style="height:90%; width:90%; background-color:transparent; border:0px">Submit</button>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <a class="nav-element" href="nutrition.html">
+            <img class="avatar" src="assets/apple2.jpg" />
+            <span class="category">Nutrition</span>
+        </a>
+        <a class="nav-element" href="fitness.html">
+            <img class="avatar" src="assets/dumbell2.jpg" />
+            <span class="category">Fitness</span>
+        </a>
+        <a class="nav-element" href="health.html">
+            <img class="avatar" src="assets/heart.png" />
+            <span class="category">Health</span>
+        </a>
+    </div>
+
+</div>
+<script src="script.js"></script> 
+</body>
+</html>
